@@ -12,7 +12,8 @@ class AchievementsActivity : AppCompatActivity() {
 
         val TextSummary = findViewById<TextView>(R.id.textSummary)
 
-        val portSummary = "* Certified in OOPs and DSA using C++."
+        val portSummary = "* Certified in OOPs and DSA using C++.\n" +
+                "\"Achievements are not that much but i am currently working on my skills.\""
         TextSummary.text = portSummary
 
     }
